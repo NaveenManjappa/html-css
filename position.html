@@ -9,9 +9,10 @@
     color:white;
     position: fixed;
     top:0px;
-    left:0px;
-    right:0px;
+    left:0;
+    right:0;
     height: 50px;
+    z-index: 100;
     ">header</div>
     <div
     style="
@@ -22,13 +23,35 @@
     bottom: 0;
     top:50px;
     width: 72px;
-    ">side bar</div>
+    ">side bar
+      <div style="
+      position: absolute;
+      background-color: red;
+      color:white;
+      top:0px;
+      right:0px;
+      z-index: 2;
+      "
+      >X
+      </div>  
+  </div>
+
+    <div style="
+    position: absolute;
+    background-color: red;
+    color:white;
+    top:60px;
+    right:10px;
+    z-index: 2;
+    "
+    >Absolute
+    </div>
 
     <div style="
       background-color: lightblue;
       height: 200px;
       width: 200px;
-      position: static;
+      position: static;      
       ">div1</div>
 
     <div style="
