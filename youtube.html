@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/sidebar.css">
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       
       <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
@@ -24,6 +24,7 @@
           <img class="search-icon" src="icons/search.svg" alt="">
           <div class="tooltip">Search</div>
         </button>
+        <!--Tool tip - put position absolute inside relative-->
         <button class="voice-search-button">
           <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
           <div class="tooltip">Search with your voice</div>
@@ -51,9 +52,9 @@
         
         <img class="current-user-picture" src="channel-pictures/my-channel.jpeg" alt="">
       </div>
-    </div>
+    </header>
       
-    <div class="sidebar">
+    <nav class="sidebar">
       <div class="sidebar-link">
         <img src="icons/home.svg" alt="">
         <div>Home</div>
@@ -78,9 +79,10 @@
         <img src="icons/library.svg" alt="">
         <div>Library</div>
       </div>
-    </div>
-    
-<div class="video-grid">
+    </nav>
+    <main>
+      
+<section class="video-grid">
     <div class="video-preview">
 
       <div class="thumbnail-row">
@@ -341,6 +343,7 @@
       </div>
           
     </div> 
-  </div>
+  </section>
+</main>
   </body>
 </html>
