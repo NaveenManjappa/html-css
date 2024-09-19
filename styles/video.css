@@ -23,6 +23,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  
+  
 }
 
 @media(max-width: 750px){
@@ -82,7 +84,7 @@
 }
 
 .video-time {
-  font-family: Roboto,Arial;
+  
   font-size:12px;
   font-weight: 600;
   /* padding-left: 4px;
